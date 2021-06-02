@@ -6,10 +6,6 @@ RUN npm install -g @angular/cli@$NG_CLI_VERSION
 
 WORKDIR /app
 
-COPY docker-entrypoint.sh /usr/local/bin/
-
 EXPOSE 4200
-
-ENTRYPOINT ["docker-entrypoint.sh"]
 
 CMD ["ng", "version"]

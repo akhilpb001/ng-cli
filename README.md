@@ -11,6 +11,8 @@ docker run -it --rm -p 4200:4200 -v "$PWD":/app akhilpb001/ng-cli:<version> sh
 
 ## Available Versions
 - 11.2.8 (latest)
+- 10.2.3
 
 ## Docker Repository
 - https://hub.docker.com/repository/docker/akhilpb001/ng-cli
+

@@ -4,6 +4,8 @@ ENV NG_CLI_VERSION 12.2.16
 
 RUN npm install -g @angular/cli@$NG_CLI_VERSION
 
+RUN apk add git
+
 WORKDIR /app
 
 EXPOSE 4200

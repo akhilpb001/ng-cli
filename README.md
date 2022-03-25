@@ -10,6 +10,7 @@ docker run -it --rm -p 4200:4200 -v "$PWD":/app akhilpb001/ng-cli:<version> sh
 ```
 
 ## Available Versions
+- 13.3.0
 - 11.2.18 (v11-lts)
 - 11.2.14
 - 11.2.8
